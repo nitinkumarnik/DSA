@@ -18,8 +18,6 @@ int recursiveEuclideanAlgorithm(int num1, int num2)
 {
     if (num1 == 0)
         return num2;
-
-    std::cout << num2%num1 << ' ' << num1 << '\n';
     return recursiveEuclideanAlgorithm(num2%num1, num1);
 
 }
